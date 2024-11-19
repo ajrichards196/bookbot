@@ -40,9 +40,8 @@ def sort_dict(d):
         new_dict["num"] = d[key]
         list_dicts.append(new_dict)
     def sort_on(dict):
-        return dict["num"]
-    order_list = list_dicts.sort(reverse=True, key=sort_on)
-    return list_dicts
+        return dict["num"]        
+    return list_dicts.sort(reverse=True, key=sort_on)
 
 
 
